@@ -1,0 +1,10 @@
+[general]
+live_config_reload = true
+
+[window]
+blur = true
+opacity = 0.5
+
+[font]
+normal = {family = "HasklugNerdFont", style = "Regular"}
+size=10
