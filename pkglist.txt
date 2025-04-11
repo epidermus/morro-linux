@@ -1,0 +1,14 @@
+alacritty
+cataclysm-dda
+crawl-ncurses
+hyprland
+lemurs
+neovim
+obsidian
+otf-hasklig-nerd
+swww
+tree
+wl-clipboard
+wofi
+zellij
+zsh
