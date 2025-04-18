@@ -26,6 +26,8 @@ then
 
   cd ..
 
+  rm -rf ewwRepo;
+
 fi
 
 
