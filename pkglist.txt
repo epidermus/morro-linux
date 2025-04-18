@@ -18,6 +18,7 @@ otf-hasklig-nerd
 pango
 swww
 tree
+uwsm
 wl-clipboard
 wofi
 zellij
