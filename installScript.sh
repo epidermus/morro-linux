@@ -47,5 +47,8 @@ echo "Copying Wallpapers"
 if [ ! -d $WALLPAPER_DEST ]; then mkdir -p $WALLPAPER_DEST ; fi && cp -r ./wallpapers/* $WALLPAPER_DEST 
 
 echo "Enabling Lemurs"
-CURRENT_DM=$(grep 'ExecStart=' /etc/systemd/system/display-manager.service)
-echo $CURRENT_DM
+# CURRENT_DM=$(grep 'ExecStart=' /etc/systemd/system/display-manager.service)
+
+sudo systemctl disable display-manager.service
+
+sudo systemctl enable lemurs.service
