@@ -9,6 +9,7 @@ glib2
 gtk3
 gtk-layer-shell
 hyprland
+hyprpicker
 libdbusmenu-gtk3
 lemurs
 gdk-pixbuf2
