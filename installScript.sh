@@ -30,7 +30,6 @@ then
 
 fi
 
-
 echo "Copying Eww Config"
 
 if [ ! -d ~/.config/eww ]; then mkdir ~/.config/eww ; fi && cp -r ./ewwConfig/* ~/.config/eww/
@@ -45,11 +44,8 @@ if [ ! -d ~/.config/zellij ]; then mkdir ~/.config/zellij ; fi && cp -r ./zellij
 
 echo "Copying Wallpapers"
 
- if [ ! -d $WALLPAPER_DEST ]; then mkdir -p $WALLPAPER_DEST ; fi && cp -r ./wallpapers/* $WALLPAPER_DEST 
+if [ ! -d $WALLPAPER_DEST ]; then mkdir -p $WALLPAPER_DEST ; fi && cp -r ./wallpapers/* $WALLPAPER_DEST 
 
-# copy hypr config to the hypr folder
-# install eww
-# copy eww widgets to eww
-# cop the alacritty folder to alacritty
-# copy the wallpapers folder to wherever it's decided
-# copy zellij to it's config
+echo "Enabling Lemurs"
+CURRENT_DM=$(grep 'ExecStart=' /etc/systemd/system/display-manager.service)
+echo $CURRENT_DM
