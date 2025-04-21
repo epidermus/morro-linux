@@ -52,3 +52,6 @@ echo "Enabling Lemurs"
 sudo systemctl disable display-manager.service
 
 sudo systemctl enable lemurs.service
+
+# Set GTK Theme (learn how to make a theme next)
+gsettings set org.gnome.desktop.interface gtk-theme Arc-Dark
