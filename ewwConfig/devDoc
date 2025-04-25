@@ -1,0 +1,18 @@
+What does I want displayed by Eww?
+  bar : {
+    power_option : {
+      right of the time;
+      On_click : open up a menu to decide what to do (reboot, power_off, log_off)
+      }
+    time : {
+      Position : Top Left
+      Format : HR:MM:SS - MM/DD/YYYY
+      }
+    spotify_now_playing : {
+      Position : next to Time
+      on_click : focus Spotify, or open if not open
+      }
+    change_wallpaper_button : {
+      Position : unsure, maybe left of spotify, but open to interreptation. Make the widget then try it
+      }
+  }
